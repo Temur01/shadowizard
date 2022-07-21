@@ -1,5 +1,5 @@
-function shadowizard(options) {
-  let images = document.querySelectorAll(".shadowizard");
+function myshadow(options) {
+  let images = document.querySelectorAll(".myshadow");
 
   if (options.shadow_type === "hard") options.shadow_type = "0px";
   else options.shadow_type = "15px";
@@ -12,4 +12,4 @@ function shadowizard(options) {
     }
   });
 }
-module.exports.shadowizard = shadowizard;
+module.exports.myshadow = myshadow;
